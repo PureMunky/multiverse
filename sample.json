@@ -1,0 +1,212 @@
+{
+    "currentNode": "9927759d-82f9-403c-a57b-404165b9c474",
+    "nodes": {
+        "9927759d-82f9-403c-a57b-404165b9c474": {
+            "id": "9927759d-82f9-403c-a57b-404165b9c474",
+            "title": "Beginning",
+            "description": "",
+            "labels": {
+                "add": [],
+                "remove": [],
+                "require": []
+            }
+        },
+        "2523a2eb-6c31-479e-be49-eeb942175373": {
+            "id": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "title": "Middle A",
+            "description": "",
+            "labels": {
+                "add": [
+                    "a"
+                ],
+                "remove": [],
+                "require": []
+            }
+        },
+        "51ad430a-9e5b-49fa-b937-56dc7fba173b": {
+            "id": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "title": "Middle B",
+            "description": "",
+            "labels": {
+                "add": [],
+                "remove": [],
+                "require": []
+            }
+        },
+        "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc": {
+            "id": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "title": "Middle C",
+            "description": "",
+            "labels": {
+                "add": [],
+                "remove": [],
+                "require": [
+                    "a"
+                ]
+            }
+        },
+        "04a7bc40-293b-4af0-8137-5efaae5edbe4": {
+            "id": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "title": "End",
+            "description": "",
+            "labels": {
+                "add": [],
+                "remove": [],
+                "require": []
+            }
+        }
+    },
+    "links": {
+        "9927759d-82f9-403c-a57b-404165b9c474-9927759d-82f9-403c-a57b-404165b9c474": {
+            "prevId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "nextId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "relationship": "self",
+            "description": ""
+        },
+        "2523a2eb-6c31-479e-be49-eeb942175373-2523a2eb-6c31-479e-be49-eeb942175373": {
+            "prevId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "nextId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "relationship": "self",
+            "description": ""
+        },
+        "51ad430a-9e5b-49fa-b937-56dc7fba173b-51ad430a-9e5b-49fa-b937-56dc7fba173b": {
+            "prevId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "nextId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "relationship": "self",
+            "description": ""
+        },
+        "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc-b48a41d4-7ca6-4df7-b1aa-95d38f756dbc": {
+            "prevId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "nextId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "relationship": "self",
+            "description": ""
+        },
+        "04a7bc40-293b-4af0-8137-5efaae5edbe4-04a7bc40-293b-4af0-8137-5efaae5edbe4": {
+            "prevId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "nextId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "relationship": "self",
+            "description": ""
+        },
+        "9927759d-82f9-403c-a57b-404165b9c474-2523a2eb-6c31-479e-be49-eeb942175373": {
+            "prevId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "nextId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "relationship": "yes",
+            "description": ""
+        },
+        "9927759d-82f9-403c-a57b-404165b9c474-51ad430a-9e5b-49fa-b937-56dc7fba173b": {
+            "prevId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "nextId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "relationship": "yes",
+            "description": ""
+        },
+        "9927759d-82f9-403c-a57b-404165b9c474-b48a41d4-7ca6-4df7-b1aa-95d38f756dbc": {
+            "prevId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "nextId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "relationship": "yes",
+            "description": ""
+        },
+        "9927759d-82f9-403c-a57b-404165b9c474-04a7bc40-293b-4af0-8137-5efaae5edbe4": {
+            "prevId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "nextId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "relationship": "yes",
+            "description": ""
+        },
+        "2523a2eb-6c31-479e-be49-eeb942175373-9927759d-82f9-403c-a57b-404165b9c474": {
+            "prevId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "nextId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "relationship": "no",
+            "description": ""
+        },
+        "2523a2eb-6c31-479e-be49-eeb942175373-51ad430a-9e5b-49fa-b937-56dc7fba173b": {
+            "prevId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "nextId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "relationship": "yes",
+            "description": ""
+        },
+        "2523a2eb-6c31-479e-be49-eeb942175373-b48a41d4-7ca6-4df7-b1aa-95d38f756dbc": {
+            "prevId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "nextId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "relationship": "yes",
+            "description": ""
+        },
+        "2523a2eb-6c31-479e-be49-eeb942175373-04a7bc40-293b-4af0-8137-5efaae5edbe4": {
+            "prevId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "nextId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "relationship": "yes",
+            "description": ""
+        },
+        "51ad430a-9e5b-49fa-b937-56dc7fba173b-9927759d-82f9-403c-a57b-404165b9c474": {
+            "prevId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "nextId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "relationship": "no",
+            "description": ""
+        },
+        "51ad430a-9e5b-49fa-b937-56dc7fba173b-2523a2eb-6c31-479e-be49-eeb942175373": {
+            "prevId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "nextId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "relationship": "yes",
+            "description": ""
+        },
+        "51ad430a-9e5b-49fa-b937-56dc7fba173b-b48a41d4-7ca6-4df7-b1aa-95d38f756dbc": {
+            "prevId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "nextId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "relationship": "yes",
+            "description": ""
+        },
+        "51ad430a-9e5b-49fa-b937-56dc7fba173b-04a7bc40-293b-4af0-8137-5efaae5edbe4": {
+            "prevId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "nextId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "relationship": "yes",
+            "description": ""
+        },
+        "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc-9927759d-82f9-403c-a57b-404165b9c474": {
+            "prevId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "nextId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "relationship": "no",
+            "description": ""
+        },
+        "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc-2523a2eb-6c31-479e-be49-eeb942175373": {
+            "prevId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "nextId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "relationship": "yes",
+            "description": ""
+        },
+        "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc-51ad430a-9e5b-49fa-b937-56dc7fba173b": {
+            "prevId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "nextId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "relationship": "yes",
+            "description": ""
+        },
+        "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc-04a7bc40-293b-4af0-8137-5efaae5edbe4": {
+            "prevId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "nextId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "relationship": "yes",
+            "description": ""
+        },
+        "04a7bc40-293b-4af0-8137-5efaae5edbe4-9927759d-82f9-403c-a57b-404165b9c474": {
+            "prevId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "nextId": "9927759d-82f9-403c-a57b-404165b9c474",
+            "relationship": "no",
+            "description": ""
+        },
+        "04a7bc40-293b-4af0-8137-5efaae5edbe4-2523a2eb-6c31-479e-be49-eeb942175373": {
+            "prevId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "nextId": "2523a2eb-6c31-479e-be49-eeb942175373",
+            "relationship": "no",
+            "description": ""
+        },
+        "04a7bc40-293b-4af0-8137-5efaae5edbe4-51ad430a-9e5b-49fa-b937-56dc7fba173b": {
+            "prevId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "nextId": "51ad430a-9e5b-49fa-b937-56dc7fba173b",
+            "relationship": "no",
+            "description": ""
+        },
+        "04a7bc40-293b-4af0-8137-5efaae5edbe4-b48a41d4-7ca6-4df7-b1aa-95d38f756dbc": {
+            "prevId": "04a7bc40-293b-4af0-8137-5efaae5edbe4",
+            "nextId": "b48a41d4-7ca6-4df7-b1aa-95d38f756dbc",
+            "relationship": "no",
+            "description": ""
+        }
+    },
+    "labels": []
+}
